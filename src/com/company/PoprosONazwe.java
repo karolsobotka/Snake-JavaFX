@@ -18,6 +18,7 @@ public class PoprosONazwe {
         if (result.isPresent()){
             this.nazwa = result.get();
         }
+        System.exit(0);
 
 
 }
